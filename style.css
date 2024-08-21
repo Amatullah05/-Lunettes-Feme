@@ -1,0 +1,385 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 120vh;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+}
+.container .section{
+    width: 85%;
+    height: 552px;
+    border: 2px solid black;
+    background-color: #FFF8DC;
+    filter: drop-shadow(0px 20px 20px  black);
+}
+.container .section .navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-right: 30px;
+}
+.navbar .logo img{
+    width: 200px;
+    filter: contrast(260%);
+    filter: brightness(95%);
+} 
+.navbar .links{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.navbar .links ul {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+} 
+.navbar .links a{ 
+    text-decoration: none;
+    color: black;
+    font-family:cursive;
+    font-weight: 600; 
+    font-size: 17px;
+} 
+.links ul a:hover{
+    color: #7286ec;
+    text-decoration: 2px solid underline  #7286ec;
+}
+.navbar .cart{
+    width: 40px;
+    height: 40px; 
+    background-color:rgb(132, 119, 249);
+    border-radius: 70%;
+    position: relative;
+}
+.navbar .cart img{
+    width: 25px;
+    position: absolute;
+    top:6px;
+    left: 7px;
+}
+.cart:hover{
+    background-color:rgb(78, 67, 176) ;
+}
+.navbar .cart img:last-child{
+    display: none;
+}
+.section .parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.parent .left{
+    width: 50%;
+    height: 474px;
+}
+.left .box1{
+    width: 100%;
+    height: 274px;
+    background-color:  #697BD1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1 .head{
+    width: 65%;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head h6{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.box1 h1{
+    font-size: 85px;
+    font-family:"Barlow Condensed", sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    padding-right: 60px;
+}
+.box1 p{
+    font-size: 16px;
+    color: white;
+    line-height: 22px;
+    font-weight: 200;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: px;
+}
+.box1 h5{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 260px;
+    margin-top: 15px;
+}
+.left .box1 .colors{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1 .colors .balls{
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    position: relative;
+    top: 13px;
+    filter: drop-shadow(0px 1px 3px black);
+}
+.balls:first-child{
+    background-color: #FC6A97;
+}
+.balls:nth-child(2){
+    background-color: #FA6ADB;
+}
+.balls:nth-child(3){
+    background-color: #A8A6A7;
+}
+.balls:last-child{
+    background-color: #000000;
+}
+.colors .balls:hover{
+    border: 2px solid white;
+}
+.parent .left .box2{
+    width: 100%;
+    height: 214px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:   #FFF8DC;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.box2 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 span h4{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
+}
+.box2 span p{
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+.box2 span p em{
+    color:  #5c6ec7;
+    font-style: inherit;
+    font-weight: 600;
+}
+.box2 .buy{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy .lft{
+    width: 27%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.lft .bx{
+    width: 40px;
+    height: 37px;
+    border: 1px solid rgb(195, 194, 194);
+    background-color: #E6CAA3;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(52, 51, 51);
+}
+.bx:first-child{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.bx:first-child:hover{
+    background-color: #c5a77c;
+}
+.bx:nth-child(2){
+    background-color: #F7FFE5;
+}
+.bx:last-child{
+    font-size: 32px;
+    font-weight: 600;
+}
+.bx:last-child:hover{
+    background-color: #c5a77c;
+}
+
+.buy .add{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #7387e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add img{
+    width: 22px;
+}
+.add:hover{
+    border: 2px solid black;
+}
+.box2 .icon{
+    width: 48%;
+    height: auto;
+    display: flex;
+    justify-content:flex-end;
+}
+.icon ul{
+    width: 53%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    color: #6972f2;
+    font-size: 17px;
+}
+.icon i:hover{
+    color:  #4f55ac;
+}
+.parent .right{
+    width: 50%;
+    height: 100%;
+}
+.parent .right img{
+    width: 100%;
+    height: 488px;
+}
+
+/*----------------------------------------------Responsive CSS------------------------------------------------------*/
+@media (max-width:768px) {
+    .container .section{
+        width: 100%;
+        height: 100vh;
+    }
+    .container .section .navbar{
+        width: 100%;
+        height: 80px;
+    }
+    .navbar .links{
+        display: none;
+    }
+    .navbar .cart img:first-child{
+        display: none;
+    }
+    .navbar .cart img:last-child{
+        display: block;
+        width: 22px;
+        position: absolute;
+        top:6px;
+        left: 8px;
+    }
+    .parent .left .box1{
+        width: 100%;
+        height: 304px;
+    }
+    .box1 .head{
+        width: 75%;
+        font-size: 22px;
+    }
+    .head h6{
+        font-size: 13px;
+    }
+    .box1 h1{
+        font-size: 80px;
+        font-weight: 400;
+    }
+    .box1 p br{
+        display: none;
+    }
+    .box1 p{
+        width: 70%;
+        height: 90px;
+        line-height: 25px;
+        margin-left:13px ;
+        font-size: 19px;
+    }
+    .box1 h5{
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .box1 .colors .balls{
+        position: relative;
+        top: 15px;
+    }
+    .parent .left .box2{
+        padding-inline: 25px;
+        padding-top: 30px;
+    }
+    .box2 span{
+        margin-bottom: 20px;
+    }
+    .box2 span h4{
+        font-size: 22px;
+    }
+    .box2 span p{
+        font-size: 16px;
+    }
+    .box2 .buy{
+        width: 100%;
+    }
+    .buy .lft{
+        width: 50%;
+    }
+    .lft .bx{
+        width: 40px;
+        height: 37px;
+    }
+    .buy .add{
+        width: 140px;
+        font-size: 16px;
+    }
+    .add img{
+        width: 22px;
+    }
+    .box2 .icon{
+        width: 50%;
+        justify-content:flex-end;
+        margin-top: 20px;
+    }
+    .icon ul{
+        width: 90%;     
+    }
+    
+    .parent .right img{
+        width: 100%;
+        height: 540px;
+    }
+}
